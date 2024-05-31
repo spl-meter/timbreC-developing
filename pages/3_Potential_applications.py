@@ -55,17 +55,15 @@ st.markdown(' ')
 st.markdown(' ')
 st.markdown('### timbreC of noise sources')
 st.markdown(' ')
-st.markdown("""The coordinates can be determined for any sound source with a sufficiently harmonic spectrum. A possible extension of the technology would be to apply it to machines with rotating elements that generate noise with such a characteristic. """)
 
-#with st.expander("Check an example"):
-st.write('Noise sources with dominant harmonic components include household appliances, electric motors and internal combustion engines. A few examples are washing machines, exhaust systems and HVAC systems.')
+"The coordinates can be determined for any sound source with a sufficiently harmonic spectrum. A possible extension of the technology would be to apply it to machines with rotating elements that generate noise with such characteristics, including washing machines, HVAC systems, internal combustion engines and electric motors."
 col1, col2, col3 = st.columns(3)
 
 #col1.write('washing machines')
 col1.image("data/washing.jpeg")
 #col2.write('exhaust systems')
-col2.image("data/ekhaust.jpeg")
+col3.image("data/ekhaust.jpeg")
 #col3.write('HVAC')
-col3.image("data/hvac.jpeg")
+col2.image("data/hvac.jpeg")
 
 st.write('In combination with the standardized acoustic measures of noise sources (e.g. sound power level), timbreC can help you to select your preferred (or less annoying!) device. The timbreC labels can be used as labels that facilitate the online sales process.')
