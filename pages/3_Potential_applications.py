@@ -37,12 +37,16 @@ col3.write('3) Retrieve the coordinates')
 col3.image("data/phone.jpeg")
 
 
-col1, col2 = st.columns([2, 1])
 
-col1.write('timbreC can be used to assess the value of musical instruments, track changes over time, detect damage, confirm authenticity and improve the design and production process.')
-col2.image("data/integrity.jpeg")
+
+st.write('timbreC can be used to assess the value of musical instruments, track changes over time, detect damage, confirm authenticity and improve the design and production process.')
+col1, col2, col3,col4,col5 = st.columns([1, 1,1,1,1])
+
+col1.image("data/integrity.jpeg")
 col2.image("data/price.jpeg")
-col2.image("data/work.jpeg")
+col3.image("data/break.jpeg")
+col4.image("data/optimize.jpeg")
+col5.image("data/work.jpeg")
 
 
 #st.write('A mobile app is required for recording and communication with the cloud-based backend. Using the cello as an example, it was tested that the mems microphones integrated into the phones provide sufficient fidelity for recording. Alternatively, any computer-based recording method can be used to create the recordings, which are then transferred to the cloud via a web-based user interface.')
