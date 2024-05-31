@@ -9,21 +9,20 @@ st.markdown(' ')
 
 st.markdown(' ')
 st.markdown(' ')
-st.markdown('### 1) Online sell of musical instruments')
+st.markdown('### 1) Online musical instrument store')
 st.markdown(' ')
-st.markdown("""TimbreC are labels for musical instruments that quantify their sound color. As such, they can be used as a filter for customers to select the instrument of their choice.""")
+"TimbreC are labels for musical instruments that quantify their sound color. They can be used as a filter for customers to select the instrument of their choice."
 
 #with st.expander("Check an example"):
 #st.image("https://static.streamlit.io/examples/dice.jpg")
-st.image("data/webpage_coordinates.jpeg")
+st.image("data/webpage_coordinates2.jpeg")
 
     
 st.markdown(' ')
 st.markdown(' ')
-st.markdown('### 2) Record timbreC of your instrument')
+st.markdown('### 2) Determine timbreC of your instrument')
 st.markdown(' ')
-st.markdown("""The only strict requirement for recording the coordinates of your own instruments is a sufficiently large and quiet room. In such a room, the position-specific features are averaged out by walking around while recording the sound of the playing instrument. This offers a technically simple implementation for recording coordinates - with a smartphone.""")
-
+"The only strict requirement for recording the coordinates of your own instruments is a sufficiently large and quiet room. "
 #with st.expander("Check an example"):
 st.write('The acquisition is performed in 3 consecutive steps.')
 col1, col2, col3 = st.columns(3)
@@ -37,7 +36,16 @@ col2.image("data/server.jpeg")
 col3.write('3) Retrieve the coordinates')
 col3.image("data/phone.jpeg")
 
-st.write('A mobile app is required for recording and communication with the cloud-based backend. Using the cello as an example, it was tested that the mems microphones integrated into the phones provide sufficient fidelity for recording. Alternatively, any computer-based recording method can be used to create the recordings, which are then transferred to the cloud via a web-based user interface.')
+
+col1, col2 = st.columns([2, 1])
+
+col1.write('timbreC can be used to assess the value of musical instruments, track changes over time, detect damage, confirm authenticity and improve the design and production process.')
+col2.image("data/integrity.jpeg")
+col2.image("data/price.jpeg")
+col2.image("data/work.jpeg")
+
+
+#st.write('A mobile app is required for recording and communication with the cloud-based backend. Using the cello as an example, it was tested that the mems microphones integrated into the phones provide sufficient fidelity for recording. Alternatively, any computer-based recording method can be used to create the recordings, which are then transferred to the cloud via a web-based user interface.')
 
 st.markdown(' ')
 st.markdown(' ')
