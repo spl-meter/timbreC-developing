@@ -9,7 +9,7 @@ st.markdown(' ')
 
 st.markdown(' ')
 st.markdown(' ')
-st.markdown('### 1) Online musical instrument store')
+st.markdown('### Online musical instrument store')
 st.markdown(' ')
 "TimbreC are labels for musical instruments that quantify their sound color. They can be used as a filter for customers to select the instrument of their choice."
 
@@ -20,7 +20,7 @@ st.image("data/webpage_coordinates2.jpeg")
     
 st.markdown(' ')
 st.markdown(' ')
-st.markdown('### 2) Determine timbreC of your instrument')
+st.markdown('### Determine timbreC of your instrument')
 st.markdown(' ')
 "The only strict requirement for recording the coordinates of your own instruments is a sufficiently large and quiet room. "
 #with st.expander("Check an example"):
@@ -49,9 +49,9 @@ col2.image("data/work.jpeg")
 
 st.markdown(' ')
 st.markdown(' ')
-st.markdown('### 3) timbreC of noise sources')
+st.markdown('### timbreC of noise sources')
 st.markdown(' ')
-st.markdown("""Not yet tested, but the coordinates can be determined for any sound source with a sufficiently harmonic spectrum. A possible extension of the technology would be to apply it to machines with rotating elements that generate noise with such a characteristic. """)
+st.markdown("""The coordinates can be determined for any sound source with a sufficiently harmonic spectrum. A possible extension of the technology would be to apply it to machines with rotating elements that generate noise with such a characteristic. """)
 
 #with st.expander("Check an example"):
 st.write('Noise sources with dominant harmonic components include household appliances, electric motors and internal combustion engines. A few examples are washing machines, exhaust systems and HVAC systems.')
