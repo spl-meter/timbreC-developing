@@ -4,7 +4,7 @@ st.markdown('## Potential applications')
 
 
 st.markdown(' ')
-st.markdown("""It is difficult to foresee all possible applications of TimbreC. Especially as it is a new technology that can also be used outside the world of music. Some possible applications are briefly presented here.""")
+"Some potential applications of TimbreC are presented as examples."
             
 
 st.markdown(' ')
